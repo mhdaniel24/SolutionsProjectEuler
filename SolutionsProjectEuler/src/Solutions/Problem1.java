@@ -4,8 +4,7 @@
  */
 package Solutions;
 
-public class Problem1 {
-	private double solution;
+public class Problem1 extends Problem{
 	
 	public void solve(){ 
 		int lastnum = 999;
@@ -26,7 +25,7 @@ public class Problem1 {
        	printSolution();
 	}
 	
-	private void printSolution(){
+	void printSolution(){
 		System.out.println(Problem1.class.getSimpleName() + " solution = " + solution);
 	}
 	

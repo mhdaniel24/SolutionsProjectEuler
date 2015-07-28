@@ -6,8 +6,7 @@
  */
 package Solutions;
 
-public class Problem2 {
-	private double solution;
+public class Problem2 extends Problem{
 	
 	public void solve(){
 		int num1 = 1;
@@ -31,7 +30,7 @@ public class Problem2 {
       	printSolution();
 	}
 	
-	private void printSolution(){
+	void printSolution(){
 		System.out.println(Problem2.class.getSimpleName() + " solution = " + solution);
 	}
 }
